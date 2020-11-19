@@ -34,5 +34,7 @@ public class ArabydealsTest {
 		driver.findElement(By.cssSelector(".left-menu > .nav-item:nth-child(2) > .nav-link")).click();
 		Assert.assertEquals(checkURL("/About"), true, "About Araby Deals URL is not correct");
 	}
+	
+	
 
 }
